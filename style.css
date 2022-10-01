@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    max-width: 1440px;
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+     top: 50%;
+    left: 50%;
+     transform: translate(-50%, -50%);
+     background-color: white;
+    
+    border-radius: 15px;
+    box-shadow: 0.1px 11px 15px 0px rgba(0, 0, 0, 0.247);
+}
+
+.victor{
+    margin: 0 auto;
+    margin-top: -50px;
+    border-radius: 50%;
+	
+}
+
+.card{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.dads-profile{
+    display: flex;
+    margin: 0 auto;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+
+.years-old{
+    margin-left: 10px;
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.city{
+    margin: 0 auto;
+    color: hsl(227, 10%, 46%);
+    margin-top: 10px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 10%;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    margin-top: 20px;
+    
+}
+.flw{
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    line-height: 20px;
+    
+}
+
+.like{
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    line-height: 20px;
+}
+
+.photo{
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    line-height: 20px;
+}
+
+.numbers{
+    border-top: 1px solid #ccc;
+    width: 100%;
+}
+
+.follow{
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+    text-align: center;
+}
+
+.likes{
+    padding:30px;
+    text-align: center;
+}
+
+.photos{
+    padding: 30px;
+    text-align: center;
+}
+
+
+/* Here i could't make the circles become responsive, how can i make it? */
+.pattern-top{
+    float: left;
+    position: fixed;
+    right: 730px;
+    bottom: 220px;
+}
+ 
+/* Here i could't make the circles become responsive, how can i make it? */
+.pattern-bot{
+    float: right;
+    position: fixed;
+    left: 690px;
+    top: 350px;
+}
+
+footer{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+}
