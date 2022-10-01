@@ -68,7 +68,7 @@ main{
     font-size: 18px;
     color: hsl(229, 23%, 23%);
     margin-top: 20px;
-    
+    justify-content: center;
 }
 .flw{
     font-size: 13px;
